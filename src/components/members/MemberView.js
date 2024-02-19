@@ -19,7 +19,7 @@ function MemberView() {
         };
 
         getUsers();
-    }, [getUsers, params.id]);
+    }, [params.id]);
 
     return (
         <div className="container py-5 h-100 ">
